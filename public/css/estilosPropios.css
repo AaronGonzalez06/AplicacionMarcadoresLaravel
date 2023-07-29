@@ -1,0 +1,47 @@
+.categoria{    
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px !important;
+}
+
+.modFlex{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modFlexTwo{
+    justify-content: space-between;
+}
+
+.modCategoriasFormulario{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.margenFormularioCategorias{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none !important;
+    transition: transform 0.3s;
+}
+
+.modIcono{
+    justify-content: space-between !important;
+    align-items: flex-end !important;
+}
+
+.icono {
+    cursor: pointer;
+    transition: transform 0.1s linear;
+}
+
+.icono:hover {
+    transform: scale(1.2) !important;
+}
+
+.modificacion{
+    display: none;
+}

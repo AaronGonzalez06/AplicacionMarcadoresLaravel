@@ -1,0 +1,96 @@
+.categoria{    
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 15px !important;
+}
+
+.modFlex{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modFlexTwo{
+    justify-content: space-between;
+}
+
+.modCategoriasFormulario{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.margenFormularioCategorias{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none !important;
+    transition: transform 0.3s;
+}
+
+.modIcono{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.icono{
+    cursor: pointer;
+}
+
+.icono {
+    cursor: pointer;
+    transition: transform 0.3s linear;
+}
+
+.icono:hover {
+    transform: scale(1.2) !important;
+}
+
+.modificacion{
+    display: none;
+}
+
+/* modo oscuro */
+
+body{
+    background-color: #1a1a1a !important;
+}
+
+.navbar-laravel {
+    background-color: #2e2e2e !important;
+}
+
+*{
+    color: #eaeaea !important;
+}
+
+.card {
+    /*background-color: #4285F4 !important;*/
+    background-color: #2e2e2e !important;
+}
+
+.list-group-item {
+    background-color: #4285F4 !important
+    /*background-color: #2e2e2e !important;*/
+}
+
+.dropdown-menu {
+    background-color: #4285F4 !important;
+}
+
+input, textarea{
+color: black !important;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item:hover{
+    background-color: #2e2e2e !important;
+}
+
+#cambiarModo{
+    cursor: pointer !important;
+}
+
+.alert-primary {
+    background-color: #2D2D2D !important;
+}
