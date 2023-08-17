@@ -41,9 +41,9 @@ const fav = document.querySelectorAll('.icono');
 const card = document.querySelectorAll('.caja');
 const modificacion = document.querySelector('.modificacion');
 let cantidadCajas = card.length;
-if(cantidadCajas == '0'){
+/*if(cantidadCajas == '0'){
     modificacion.style.display = "block";
-}
+}*/
 fav.forEach((elemento, index) => {
     elemento.addEventListener('click', () => {
         if (elemento.classList.contains('delete')) {
